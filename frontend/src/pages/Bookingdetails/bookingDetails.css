@@ -1,0 +1,46 @@
+.booking-details {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--heading-color); /* Use the appropriate color based on your theme */
+}
+
+.booking-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.booking-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.booking-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  color: var(--primary-color); /* Accent color */
+}
+
+.card-body p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  color: var(--text-color);
+}
+
+strong {
+  color: var(--heading-color);
+}

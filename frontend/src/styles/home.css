@@ -1,0 +1,56 @@
+:root {
+   --primary-color     : #3d0075; /* Light purple */
+   --secondary-color   : #6c6cc9; /* Soft white with a hint of purple */
+   --heading-color     : #4b3f72; /* Darker purple for headings */
+   --text-color        : #6e7074; /* Light gray for text */
+   --font-name         : "Montserrat", sans-serif;
+   --subtitle-font-name: "Island Moments", cursive;
+}
+
+/* HERO SECTION */
+.hero__content h1 {
+   font-size    : 2.5rem;
+   font-weight  : 600;
+   margin-top   : 1rem;
+   margin-bottom: 2rem;
+   color        : var(--heading-color);
+}
+
+.hero__content h1 .highlight {
+   color: var(--primary-color);
+}
+
+.hero__content p {
+   font-size  : 1rem;
+   color      : var(--text-color);
+   line-height: 1.4rem;
+}
+
+.hero__img-box img,
+.hero__img-box video {
+   width        : 100%;
+   height       : 350px;
+   border-radius: 20px;
+   border       : 1px solid var(--secondary-color);
+   object-fit   : cover;
+}
+
+.counter__box span {
+   width          : 70px;
+   height         : 70px;
+   margin         : auto;
+   display        : flex;
+   align-items    : center;
+   justify-content: center;
+   background     : var(--primary-color);
+   color          : #fff;
+   font-size      : 1.2rem;
+   font-weight    : 600;
+   border-radius  : 10px 5px 10px 5px;
+}
+
+.counter__box h6 {
+   font-size : 0.8rem;
+   margin-top: 0.5rem;
+   color     : var(--text-color);
+}
